@@ -1,0 +1,81 @@
+.container {
+    background-color: rgb(137, 184, 110);
+    display: flex;
+    margin: 30px auto;
+    padding: 30px;
+    justify-content: center;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.flex-1{
+    margin: 10px;
+    border: 2px solid yellow;
+    width: 100px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-2{
+    margin: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.box-2{
+    border: 2px solid yellow;
+    height: 200px;
+}
+
+.flex-3{
+    display: flex;
+    justify-content: space-around;
+}
+.box-3, .box-4{
+    margin: 2px;
+    border: 2px solid yellow;
+    height: 95px;
+    width: 100%;
+}
+
+.container2{
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    background-color: rgb(137, 184, 110);
+    justify-content: center;
+
+}
+.flex-4{
+    display: flex;
+    margin: 10px;
+    flex-direction:column;
+}
+.box-5, .box-6{
+    width: 200px;
+    height: 150px;
+    border: 2px solid yellow;
+    box-sizing: border-box;
+    margin: 2px;
+
+}
+.box-7{
+    width: 100px;
+    height: 300px;
+    border: 2px solid yellow
+
+}
+.flex-5{
+    margin: 10px;
+
+}
+
+.container3{
+    background-color: rgb(137, 184, 110);
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.box-8{
+    width: 320px;
+    height: 300px;
+    border: 2px solid yellow;
+}
